@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Nightlife</string>
+    <string name="ButtonBusiness">Business</string>
+    <string name="ButtonClient">Client</string>
+    <string name="nightlifeTextTitle">Nightlife</string>
+    <string name="email">Email</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="enter_password">Enter password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="not_a_partner">Not a partner</string>
+    <string name="signUp">Sign Up</string>
+    <string name="nameSignUp">Name</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="confirm">Confirm</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="password_reset_speech">Please enter the full email \naddress you use for your \nNightlife account, and we\'ll \nsend you a link to reset \nyour password.</string>
+    <string name="email_address">Email address</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="smiley_face">smiley face</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome2">I Hope you enjoy our app.</string>
+    <string name="next">Next</string>
+</resources>
