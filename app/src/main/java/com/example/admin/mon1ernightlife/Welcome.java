@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 import java.util.jar.Attributes;
 
+import static com.example.admin.mon1ernightlife.SignUp.EXTRA_MESSAGE_USERNAME;
+
 public class Welcome extends AppCompatActivity {
 
     TextView message;
@@ -18,7 +20,7 @@ public class Welcome extends AppCompatActivity {
         message =(TextView)findViewById(R.id.textViewReceiver);
 
         Intent intent = getIntent();
-        String nameSigned = intent.getExtras().getString("Name");
+        String nameSigned = intent.getStringExtra(EXTRA_MESSAGE_USERNAME);
 
         message.setText(""+nameSigned);
     }

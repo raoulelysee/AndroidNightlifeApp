@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Point;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Display;
@@ -18,11 +19,20 @@ import static com.example.admin.mon1ernightlife.R.id.imageView1;
 public class MainActivity extends AppCompatActivity {
 
     Button GoToLoginScreen;
+private Handler handler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+handler = new Handler();
+
+/*        Runnable runnable = new Runnable() {
+            @Override
+            public void run() {
+
+            }
+        }*/
 
         //Creating a zoom animation on the background view
         final ImageView zoom = (ImageView) findViewById(imageView1);

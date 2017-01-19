@@ -11,7 +11,7 @@
     <string name="sign_in">Sign In</string>
     <string name="not_a_partner">Not a partner</string>
     <string name="signUp">Sign Up</string>
-    <string name="nameSignUp">Name</string>
+    <string name="userName">Username</string>
     <string name="first_name">First name</string>
     <string name="last_name">Last name</string>
     <string name="country">Country</string>

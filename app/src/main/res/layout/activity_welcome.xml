@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@color/colorSilver"
+    android:background="@color/colorSnow"
     android:orientation="vertical"
     tools:context="com.example.admin.mon1ernightlife.Welcome">
 <ImageView
@@ -24,7 +24,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
+        android:gravity="center"
         android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
         android:text="@string/welcome"
         android:textColor="@color/colorBlack"/>
     <TextView
@@ -32,7 +34,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
+        android:gravity="center"
         android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
         android:text=""
         android:textColor="@color/colorBlack"
         />
@@ -41,7 +45,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
+        android:gravity="center"
         android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
         android:text="@string/welcome2"
         android:textColor="@color/colorBlack"/>
     <Button

@@ -14,8 +14,9 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="525dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
+        android:paddingBottom="15dp"
         android:background="@drawable/bckgrnd_login"
         android:orientation="vertical"
         tools:ignore="ExtraText">
@@ -25,57 +26,12 @@
             android:id="@+id/TextViewFirstName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/nameSignUp"
+            android:text="@string/userName"
             android:paddingTop="5dp"
             android:paddingLeft="5dp"
             android:textColor="@color/colorBlack"/>
         <EditText
-            android:id="@+id/editTextFirstName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="5dp"
-            android:textColorHint="@color/colorBlack"
-            android:padding="10dp"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/edit_bckgrnd_login"
-            android:inputType="textPersonName"
-            android:singleLine="true"
-            android:textColor="@color/colorBlack"/>
-        <TextView
-
-            android:id="@+id/textViewLastName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/last_name"
-            android:paddingTop="5dp"
-            android:paddingLeft="5dp"
-            android:textColor="@color/colorBlack"/>
-        <EditText
-            android:id="@+id/editTextLastName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="5dp"
-            android:textColorHint="@color/colorBlack"
-            android:padding="10dp"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/edit_bckgrnd_login"
-            android:inputType="textPersonName"
-            android:singleLine="true"
-            android:textColor="@color/colorBlack"/>
-        />
-        <TextView
-
-            android:id="@+id/textViewCountry"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/country"
-            android:paddingTop="5dp"
-            android:paddingLeft="5dp"
-            android:textColor="@color/colorBlack"/>
-        <EditText
-            android:id="@+id/editTextCountry"
+            android:id="@+id/editUserName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
@@ -87,28 +43,7 @@
             android:inputType="text"
             android:singleLine="true"
             android:textColor="@color/colorBlack"/>
-        />
-        <TextView
 
-            android:id="@+id/textViewCity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="5dp"
-            android:paddingLeft="5dp"
-            android:textColor="@color/colorBlack"/>
-        <EditText
-            android:id="@+id/editTextCity"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="5dp"
-            android:padding="10dp"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/edit_bckgrnd_login"
-            android:inputType="text"
-            android:singleLine="true"
-            android:textColor="@color/colorBlack"/>
-        />
         <TextView
 
             android:id="@+id/textViewEmailAddress"
@@ -128,7 +63,7 @@
             android:padding="10dp"
             android:layout_marginRight="5dp"
             android:background="@drawable/edit_bckgrnd_login"
-            android:inputType="text"
+            android:inputType="textEmailAddress"
             android:singleLine="true"
             android:textColor="@color/colorBlack"/>
         />
