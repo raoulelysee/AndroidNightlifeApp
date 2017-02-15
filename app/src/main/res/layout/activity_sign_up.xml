@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_sign_up"
     android:layout_width="match_parent"
@@ -8,120 +8,141 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
-    android:background="@color/colorWhite"
-    tools:context="com.example.admin.mon1ernightlife.SignUp">
+    tools:context="com.example.admin.mon1ernightlife.SignUp"
+    android:background="@color/colorWhite">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="0dp"
-        android:paddingBottom="15dp"
-        android:background="@drawable/bckgrnd_login"
-        android:orientation="vertical"
-        tools:ignore="ExtraText">
+        android:id="@+id/scrollViewSignUp"
+        android:layout_alignParentTop="true"
+        android:scrollbars="vertical"
+        android:isScrollContainer="true">
 
-        <TextView
-
-            android:id="@+id/TextViewFirstName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/userName"
-            android:paddingTop="5dp"
-            android:paddingLeft="5dp"
-            android:textColor="@color/colorBlack"/>
-        <EditText
-            android:id="@+id/editUserName"
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="5dp"
-            android:textColorHint="@color/colorBlack"
-            android:padding="10dp"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/edit_bckgrnd_login"
-            android:inputType="text"
-            android:singleLine="true"
-            android:textColor="@color/colorBlack"/>
+            android:id="@+id/moi"
+            android:layout_marginBottom="100dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/toi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:paddingBottom="15dp"
+                    android:background="@drawable/bckgrnd_login"
+                    android:orientation="vertical"
+                    tools:ignore="ExtraText">
 
-        <TextView
+                    <TextView
 
-            android:id="@+id/textViewEmailAddress"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/email"
-            android:paddingTop="5dp"
-            android:paddingLeft="5dp"
-            android:textColor="@color/colorBlack"/>
-        <EditText
-            android:id="@+id/editTextEmailAddress"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="5dp"
-            android:textColorHint="@color/colorBlack"
-            android:padding="10dp"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/edit_bckgrnd_login"
-            android:inputType="textEmailAddress"
-            android:singleLine="true"
-            android:textColor="@color/colorBlack"/>
-        />
-        <TextView
+                        android:id="@+id/TextViewFirstName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/userName"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/colorBlack"/>
+                    <EditText
+                        android:id="@+id/editUserName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textColorHint="@color/colorBlack"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/bkgnd_white_box"
+                        android:inputType="text"
+                        android:textColor="@color/colorBlack"/>
 
-            android:id="@+id/textViewNewPassword"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/password"
-            android:paddingTop="5dp"
-            android:paddingLeft="5dp"
-            android:textColor="@color/colorBlack"/>
-        <EditText
-            android:id="@+id/editNewPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="5dp"
-            android:textColorHint="@color/colorBlack"
-            android:padding="10dp"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/edit_bckgrnd_login"
-            android:inputType="textPassword"
-            android:singleLine="true"
-            android:textColor="@color/colorBlack"/>
-        />
-        <TextView
+                    <TextView
 
-            android:id="@+id/textViewPasswordConfirm"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/confirm_password"
-            android:paddingTop="5dp"
-            android:paddingLeft="5dp"
-            android:textColor="@color/colorBlack"/>
-        <EditText
-            android:id="@+id/editTextPasswordConfirm"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="5dp"
-            android:textColorHint="@color/colorBlack"
-            android:padding="10dp"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/edit_bckgrnd_login"
-            android:inputType="textPassword"
-            android:singleLine="true"
-            android:textColor="@color/colorBlack"/>
-        />
-        </LinearLayout>
+                        android:id="@+id/textViewEmailAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/colorBlack"/>
+                    <EditText
+                        android:id="@+id/editTextEmailAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textColorHint="@color/colorBlack"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/bkgnd_white_box"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/colorBlack"/>
+                    />
+                    <TextView
 
-    <Button
-        android:id="@+id/buttonConfirmSignUp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/confirm"
-        android:background="@drawable/edit_bckgrnd_login"
-        android:layout_marginTop="10dp"
-        android:textColor="@color/colorBlack"/>
-</LinearLayout>
+                        android:id="@+id/textViewNewPassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/password"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/colorBlack"/>
+                    <EditText
+                        android:id="@+id/editNewPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textColorHint="@color/colorBlack"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/bkgnd_white_box"
+                        android:inputType="textPassword"
+                        android:textColor="@color/colorBlack"/>
+                    />
+                    <TextView
+
+                        android:id="@+id/textViewPasswordConfirm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/confirm_password"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/colorBlack"/>
+                    <EditText
+                        android:id="@+id/editTextPasswordConfirm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textColorHint="@color/colorBlack"
+                        android:padding="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/bkgnd_white_box"
+                        android:inputType="textPassword"
+                        android:textColor="@color/colorBlack"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/buttonConfirmSignUp"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/confirm"
+                    android:textAlignment="center"
+                    android:background="@drawable/edit_bckgrnd_login"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/colorBlack"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

@@ -41,7 +41,7 @@
             android:textColorHint="@color/colorBlack"
             android:padding="10dp"
             android:layout_marginRight="5dp"
-            android:background="@drawable/edit_bckgrnd_login"
+            android:background="@drawable/bkgnd_white_box"
             android:inputType="textEmailAddress"
             android:singleLine="true"
             android:textColor="@color/colorBlack"/>
@@ -64,9 +64,8 @@
             android:textColorHint="@color/colorBlack"
             android:padding="10dp"
             android:layout_marginRight="5dp"
-            android:background="@drawable/edit_bckgrnd_login"
+            android:background="@drawable/bkgnd_white_box"
             android:inputType="textPassword"
-            android:singleLine="true"
             android:textColor="@color/colorBlack"/>
               />
 
@@ -82,7 +81,7 @@
         android:onClick="forgotPassword"
         android:clickable="true"
         android:textColor="@color/colorRed"
-        android:textSize="15dp"
+        android:textSize="15sp"
         />
 
 <Button

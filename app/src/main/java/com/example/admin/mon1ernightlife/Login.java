@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -12,11 +13,12 @@ public class Login extends AppCompatActivity {
 TextView GoToForgotPassword;
     Button SignIn;
     Button SignUp;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
 
         GoToForgotPassword = (TextView)findViewById(R.id.forgotPassword);
         GoToForgotPassword.setOnClickListener(new View.OnClickListener() {
