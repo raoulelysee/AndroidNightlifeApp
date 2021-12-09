@@ -7,14 +7,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import java.util.jar.Attributes;
-
 import static com.example.admin.mon1ernightlife.SignUp.EXTRA_MESSAGE_USERNAME;
 
 public class Welcome extends AppCompatActivity {
 
     TextView message;
-    Button GoToMenuScreen;
+    Button GoToDashboardScreen;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,8 +25,8 @@ public class Welcome extends AppCompatActivity {
 
         message.setText(""+nameSigned);
 
-        GoToMenuScreen = (Button)findViewById(R.id.buttonNextPage);
-        GoToMenuScreen.setOnClickListener(new View.OnClickListener() {
+        GoToDashboardScreen = (Button)findViewById(R.id.buttonNextPage);
+        GoToDashboardScreen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 

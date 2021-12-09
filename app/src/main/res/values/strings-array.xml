@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="musical_array">
+        <item>Alternative</item>
+        <item>Bachata</item>
+        <item>Blues</item>
+        <item>Classical</item>
+        <item>Country</item>
+        <item>Dance</item>
+        <item>Electronic</item>
+        <item>Hip Hop</item>
+        <item>Jazz</item>
+        <item>Opera</item>
+        <item>Rhytm and Blues</item>
+        <item>Reggae</item>
+        <item>Salsa</item>
+    </string-array>
+</resources>

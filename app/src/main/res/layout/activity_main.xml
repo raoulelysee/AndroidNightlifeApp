@@ -10,11 +10,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
-        android:background="@drawable/club_nyc"
         android:adjustViewBounds="false"
         android:cropToPadding="false"
         android:contentDescription=""
         tools:ignore="ContentDescription" />
+    <!-- android:background="@drawable/club_nyc"-->
+
+
 <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"

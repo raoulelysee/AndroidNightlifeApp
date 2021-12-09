@@ -26,4 +26,11 @@
     <string name="welcome">Welcome</string>
     <string name="welcome2">I Hope you enjoy our app.</string>
     <string name="next">Next</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Profile</string>
+    <string name="preferences">Preferences</string>
+    <string name="my_details">My details</string>
+    <string name="gender">Gender</string>
 </resources>

@@ -15,7 +15,7 @@
         android:id="@+id/buttonProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/button_message"
+        android:background="@drawable/btn_profile"
         android:layout_marginTop="80dp"
         android:layout_marginLeft="25dp"/>
         <TextView
@@ -31,9 +31,9 @@
             android:id="@+id/buttonPlace"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/button_direction"
             android:layout_marginTop="80dp"
-            android:layout_marginLeft="140dp"/>
+            android:layout_marginLeft="140dp"
+            android:background="@drawable/btn_place"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -48,7 +48,7 @@
             android:id="@+id/buttonFriend"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/button_message"
+            android:background="@drawable/btn_friend"
             android:layout_marginTop="80dp"
             android:layout_marginLeft="255dp"/>
 
@@ -65,7 +65,7 @@
             android:id="@+id/buttonEvent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/button_direction"
+            android:background="@drawable/btn_event"
             android:layout_marginTop="260dp"
             android:layout_marginLeft="25dp"/>
 
@@ -82,7 +82,7 @@
             android:id="@+id/buttonMember"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/button_message"
+            android:background="@drawable/btn_member"
             android:layout_marginTop="260dp"
             android:layout_marginLeft="140dp"/>
 
@@ -99,7 +99,7 @@
             android:id="@+id/buttonClub"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/button_direction"
+            android:background="@drawable/btn_club"
             android:layout_marginTop="260dp"
             android:layout_marginLeft="255dp"/>
 
@@ -116,7 +116,7 @@
             android:id="@+id/buttonArrow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/button_arrow"
+            android:background="@drawable/btn_arrow"
             android:layout_marginLeft="125dp"
             android:layout_marginTop="440dp"/>
 
